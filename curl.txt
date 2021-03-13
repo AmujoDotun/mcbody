@@ -1,0 +1,4 @@
+curl --header "Content-Type: application/json" \                                
+  --request POST \
+  --data '{"transaction_details":"INDO GIBL Indiaforensic STL25071"}' \
+  http://localhost:5000/api/transactions | jq
